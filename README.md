@@ -101,9 +101,9 @@ CONFIGURE_ARGS += --disable-ssl
 CONFIGURE_ARGS += --enable-shared
 CONFIGURE_ARGS += --enable-cn-stats
 ~~~
-6. Copy the 0100-ovs-cn-stats.patch to the ```patches``` folder
+6. Copy the ```0100-ovs-cn-stats.patch``` to the ```patches``` folder
 7. Install Open vSwitch using
 ~~~
-make_menuconfig
+make menuconfig
 ~~~
 8.
