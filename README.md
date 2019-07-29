@@ -26,18 +26,18 @@ The packet statistics are captured when packets pass through the Open vSwitch Ke
 
 
 #### The current statistics gathered is for the following protocols are: 
-#####TCP
+##### TCP
 	1. Source and Destination IPv4 Addresses
 	2. Source and Destination Port Numbers
 	3. Protocol
 	4. Packet Sizes
-#####UDP
+##### UDP
 	1. Source and Destination IPv4 Addresses
 	2. Source and Destination Port Numbers
 	3. Protocol
 	4. Packet Sizes
 
-###Installation
+### Installation
 
 #### OpenWrt
 Installing the Open vSwitch Classifier Node Statistics Gatherer on OpenWRT requires building the kernel image for OpenWRT with the app enabled, compiled and installed.
@@ -106,4 +106,3 @@ CONFIGURE_ARGS += --enable-cn-stats
 ~~~
 make menuconfig
 ~~~
-8.
